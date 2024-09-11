@@ -1,0 +1,89 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--secondary-bg);
+  -webkit-box-shadow: 10px 10px 38px -2px var(--shadow);
+  -moz-box-shadow: 10px 10px 38px -2px var(--shadow);
+  box-shadow: 10px 10px 38px -2px var(--shadow);
+}
+.timeline {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline .event {
+  height: 50px;
+  width: 80px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin-left: -25px;
+  /* padding: 10px; */
+  padding-right: 20px;
+  z-index: 1;
+  color: whitesmoke;
+  -webkit-box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
+}
+
+.timeline .event .date {
+  display: none;
+}
+
+.timeline .event .no-date {
+  font-size: 12px;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .timeline .event {
+    height: 70px;
+    width: 155px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -35px;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .timeline .event:nth-child(1)::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: -25px; /* Ajusta según el tamaño del triángulo */
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent; /* El alto del triángulo */
+    border-bottom: 40px solid transparent; /* El alto del triángulo */
+    border-left: 25px solid var(--secondary-bg); /* El color del fondo del contenedor */
+    z-index: 6;
+  }
+
+  .timeline .event .date {
+    display: initial;
+    font-size: 18px;
+  }
+
+  .timeline .event .no-date {
+    display: none;
+  }
+}
+@media (min-width: 1020px) {
+  .timeline-container {
+    border-radius: 20px;
+  }
+}

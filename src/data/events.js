@@ -1,0 +1,68 @@
+export const events = [
+  {
+    date: "Introduction",
+    year: "Intro",
+    title: "Introduction Myself",
+    description:
+      "Hi, this is me, Brayan Felipe Getial Ayala, I was born on February 23, 1999 in Tuquerres, Nariño. Below I will tell you about some moments that have been important to me.",
+    comment: "(Press the next button to start)",
+    image: "src/assets/03.jpg",
+    color: "#f097ad",
+  },
+  {
+    date: "2016-12-12",
+    year: "2016",
+    month: "12-12",
+    title: "Event Two",
+    description: "Description for event two.",
+    image: "src/assets/02.jpg",
+    color: "#e5608f",
+  },
+  {
+    date: "2017-07-07",
+    year: "2017",
+    month: "07-07",
+    title: "Event Three",
+    description: "Description for event three.",
+
+    image: "src/assets/01.jpg",
+    color: "#e02f65",
+  },
+  {
+    date: "2021-05-12",
+    year: "2020",
+    month: "01-02",
+    title: "Event Four",
+    description: "Description for event four.",
+    image: "src/assets/WhatsApp Image 2024-07-02.jpeg",
+    color: "#4b4b67",
+  },
+  {
+    date: "2021-05-12",
+    year: "2021",
+    month: "02-23",
+    title: "Event Five",
+    description: "Description for event five.",
+    image: "src/assets/joker.png",
+    color: "#0372ac",
+  },
+  {
+    date: "2021-05-12",
+    year: "2023",
+    month: "11-27",
+    title: "Event six",
+    description: "Description for event six.",
+    image: "src/assets/react.svg",
+    color: "#21bee9",
+  },
+  {
+    date: "2021-05-12",
+    year: "2024",
+    month: "02-23",
+    title: "Event six",
+    description: "Description for event six.",
+    image: "src/assets/react.svg",
+    color: "#a3b5FC",
+  },
+  // Más eventos...
+];

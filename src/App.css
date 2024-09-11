@@ -1,0 +1,44 @@
+:root {
+  /* Colores Base */
+  --background: #121f2f; /* Fondo Principal */
+  --secondary-bg: #112235; /* Fondo Secundario */
+  --tertiary-bg: #424769; /* Fondo Terciario */
+  --text-primary: #ffffff; /* Texto Principal */
+  --text-secondary: #f2f2f2; /* Texto Secundario */
+  --text-tertiary: #6f5fbf; /* Texto Terciario */
+  --text-quartary: #676f9d; /* Texto Terciario */
+  --accent: #f9b17a; /* Acentos y Elementos Destacados */
+
+  /* Variantes de Colores */
+  --button-bg: var(--accent); /* Fondo de Botones */
+  --button-text: var(--background); /* Texto de Botones */
+  --title: var(--text-primary); /* Títulos */
+  --subtitle: var(--text-secondary); /* Subtitulos */
+  --shadow: rgba(0, 0, 0, 0.5); /* Sombras */
+  --border: #676f9d; /* Bordes */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.App {
+  max-width: 1024px;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

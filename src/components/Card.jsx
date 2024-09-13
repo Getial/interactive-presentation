@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import { Slide } from "react-awesome-reveal";
 import "../styles/Card.css";
 

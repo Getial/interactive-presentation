@@ -15,15 +15,20 @@ const Timeline = ({ events, onSelect, onNext, onPrevious }) => {
             key={index}
             onClick={() => onSelect(index)}
           >
-            <p className="date">{event.date}</p>
-            <p className="no-date">{event.year}</p>
-            <p className="no-date">{event.month}</p>
+            {/* <p className="date">{event.year}</p>
+            <p className="date">{event.month}</p> */}
+            <p className="date">{event.year}</p>
+            {/* <p className="date month">{event.month}</p> */}
           </div>
         ))}
       </div>
       <div className="navigation-buttons">
-        <button onClick={onPrevious}>Previous</button>
-        <button onClick={onNext}>Next</button>
+        <button className="btn btn-previous" onClick={onPrevious}>
+          <span>❮</span> Previous
+        </button>
+        <button className="btn btn-next" onClick={onNext}>
+          Next <span>❯</span>
+        </button>
       </div>
     </div>
   );

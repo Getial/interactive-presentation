@@ -1,13 +1,15 @@
+/* eslint-disable react/prop-types */
 import "../styles/Timeline.css";
 
-// eslint-disable-next-line react/prop-types
-const Timeline = ({ events, onSelect, onNext, onPrevious }) => {
+const Timeline = ({ events, onSelect, onNext, onPrevious, selectedIndex }) => {
   return (
     <div className="timeline-container">
       <div className="timeline">
         {events.map((event, index) => (
           <div
-            className="event"
+            className={`event ${
+              selectedIndex === index ? "selected-event" : ""
+            }`}
             style={{
               backgroundColor: event.color,
               zIndex: events.length - index,
@@ -15,10 +17,7 @@ const Timeline = ({ events, onSelect, onNext, onPrevious }) => {
             key={index}
             onClick={() => onSelect(index)}
           >
-            {/* <p className="date">{event.year}</p>
-            <p className="date">{event.month}</p> */}
             <p className="date">{event.year}</p>
-            {/* <p className="date month">{event.month}</p> */}
           </div>
         ))}
       </div>

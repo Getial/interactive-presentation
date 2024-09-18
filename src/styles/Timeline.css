@@ -20,7 +20,7 @@
 
 .timeline .event {
   height: 50px;
-  width: 80px;
+  width: 70px;
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
   display: flex;
@@ -35,11 +35,18 @@
   -webkit-box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
   box-shadow: 10px 10px 40px -20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
 }
 
-/* .timeline .event .date {
-  display: none;
-} */
+.timeline .event:hover {
+  transform: scale(1.05);
+}
+
+.timeline .selected-event {
+  border: 2px solid var(--text-tertiary); /* O cualquier color para resaltar */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /*Un pequeño aumento al evento seleccionado */
+}
 
 .timeline .event .date {
   font-size: 12px;
@@ -98,15 +105,19 @@
 @media (min-width: 600px) {
   .timeline .event {
     height: 60px;
-    width: 120px;
+    width: 110px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    margin-left: -35px;
+    margin-left: -30px;
     padding-right: 25px;
     /* flex-direction: row; */
     align-items: flex-end;
     justify-content: center;
     cursor: pointer;
+  }
+
+  .timeline .selected-event {
+    border: 4px solid var(--text-tertiary);
   }
 
   .timeline .event:nth-child(1)::before {

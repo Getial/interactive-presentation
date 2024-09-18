@@ -2,7 +2,6 @@ import { useState } from "react";
 import Title from "./components/Title";
 import Card from "./components/Card";
 import Timeline from "./components/Timeline";
-import NavigationButtons from "./components/NavigationButtons";
 import { events } from "./data/events";
 import "./App.css";
 
@@ -34,6 +33,7 @@ const App = () => {
         onSelect={handleSelect}
         onPrevious={handlePrevious}
         onNext={handleNext}
+        selectedIndex={currentEventIndex}
       />
       {/* <NavigationButtons onPrevious={handlePrevious} onNext={handleNext} /> */}
     </div>

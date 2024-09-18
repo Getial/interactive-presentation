@@ -67,17 +67,17 @@ export const events = [
     title: "An Adventure in Chile",
     description:
       "On January 1st, 2022, I landed in Chile. It was one of my greatest adventures: I got to know its culture, gastronomy, met wonderful people, saw beautiful places, and I would love to go back. It will be one of my future goals.",
-    image: "src/assets/03.jpg",
+    image: "src/assets/2022-01.jpeg",
     color: "#a3b5FC",
   },
   {
-    date: "2022-01-01",
+    date: "2023-01-01",
     year: "2023",
     month: "02-23",
     title: "Back to My Roots",
     description:
       "Back in Colombia, enjoying my family and my country because I definitely want to keep exploring the world.",
-    image: "src/assets/2019-07.jpeg",
+    image: "src/assets/2023-01.jpeg",
     color: "#ff512f",
   },
   {

@@ -6,7 +6,7 @@ export const events = [
     description:
       "Hi, this is me, Brayan Felipe Getial Ayala, I was born on February 23, 1999 in Tuquerres, Nariño. Below I will tell you about some moments that have been important to me.",
     comment: "(Press the next button to start)",
-    image: "assets/03.jpg",
+    image: "assets/03-min.jpg",
     color: "#f097ad",
   },
   {
@@ -16,7 +16,7 @@ export const events = [
     title: "A New Beginning",
     description:
       "I graduated with a commercial high school diploma. This, more than an achievement, was a starting point where all the decisions I made from then on were more personal.",
-    image: "assets/02.jpg",
+    image: "assets/02-min.jpg",
     color: "#e5608f",
   },
   {
@@ -27,7 +27,7 @@ export const events = [
     description:
       "I moved to a new city because I wanted to study Mechatronics, and I did.",
 
-    image: "assets/2017-02.jpeg",
+    image: "assets/2017-02-min.jpeg",
     color: "#e02f65",
   },
   {
@@ -37,7 +37,7 @@ export const events = [
     title: "A National Achievement",
     description:
       "I participated in the 2018 National Mechatronics Olympics and placed third.",
-    image: "assets/2018-01.jpeg",
+    image: "assets/2018-01-min.jpeg",
     color: "#4b4b67",
   },
   {
@@ -47,7 +47,7 @@ export const events = [
     title: "A Journey of Growth",
     description:
       "I moved to a new city again to do my internship. The company where I worked and all the people there were always very kind.",
-    image: "assets/2019-01.jpeg",
+    image: "assets/2019-01-min.jpeg",
     color: "#0372ac",
   },
   {
@@ -57,7 +57,7 @@ export const events = [
     title: "Discovering Quito",
     description:
       "Just before the COVID-19 pandemic, I had the opportunity to visit Quito, Ecuador.",
-    image: "assets/2020-01.jpeg",
+    image: "assets/2020-01-min.jpeg",
     color: "#21bee9",
   },
   {
@@ -67,7 +67,7 @@ export const events = [
     title: "An Adventure in Chile",
     description:
       "On January 1st, 2022, I landed in Chile. It was one of my greatest adventures: I got to know its culture, gastronomy, met wonderful people, saw beautiful places, and I would love to go back. It will be one of my future goals.",
-    image: "assets/2022-01.jpeg",
+    image: "assets/2022-01-min.jpeg",
     color: "#a3b5FC",
   },
   {
@@ -77,7 +77,7 @@ export const events = [
     title: "Back to My Roots",
     description:
       "Back in Colombia, enjoying my family and my country because I definitely want to keep exploring the world.",
-    image: "assets/2023-01.jpeg",
+    image: "assets/2023-01-min.jpeg",
     color: "#ff512f",
   },
   {
@@ -87,7 +87,7 @@ export const events = [
     title: "Freedom on Two Wheels",
     description:
       "I bought my first motorcycle. This is important to me because it has given me more freedom and comfort to explore the small but beautiful places in the region where I live.",
-    image: "assets/WhatsApp Image 2024-07-02.jpeg",
+    image: "assets/WhatsApp Image 2024-07-02-min.jpeg",
     color: "#02aabd",
   },
   // Más eventos...
